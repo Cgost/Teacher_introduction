@@ -1,8 +1,7 @@
 # Teacher_introduction
 
 ## 專案介紹
-A webpage to introduce a teachers at TKU.
-And also for my final report.
+A webpage to introduce a teachers at TKU, and also for my final report.
 
 ## 網頁架構
 ### Home page
