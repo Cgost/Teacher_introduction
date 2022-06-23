@@ -16,3 +16,16 @@ And also for my final report.
 
 ### Massage board page
 ![](Architecture_diagram/Message_board.png)
+
+## UI架構
+### Home page
+![](UI_diagram/home.png)
+
+### Teaching page
+![](UI_diagram//teaching.png)
+
+### Thesis page
+![](UI_diagram//thesis.png)
+
+### Massage board page
+![](UI_diagram//message_board.png)
