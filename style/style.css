@@ -1,0 +1,101 @@
+/* div */
+.warp {
+    align-items:stretch | flex-start | flex-end | center | baseline;
+}
+.navbar, .foot {
+    height: 40px;
+}
+.main{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+.main .title, .main .index{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* navbar */
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #333;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    color: black;
+    background-color: #dddddd;
+}
+li a:active{
+    background-color: aquamarine;
+}
+
+/* table */
+table, th, td {
+    border: 0px none;
+    text-align:center;
+}
+table {
+    width: 100%;
+}
+th, td {
+    height: 40px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    width: auto;
+}
+table a{
+    color: #b89600;
+    text-decoration:none;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #C4E1FF;
+}
+
+/* footer */
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* @media */
+@media only screen and (max-width: 600px){
+    .main{
+        margin-top: 250px;
+        margin-bottom: 200px;
+    }
+    li{
+        width: 100%;
+    }
+}
