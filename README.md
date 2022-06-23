@@ -15,4 +15,4 @@ And also for my final report.
 ![](Architecture_diagram/Thesis.png)
 
 ### Massage board page
-![](Architecture_diagram/Message board.png)
+![](Architecture_diagram/Message_board.png)
